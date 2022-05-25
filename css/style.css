@@ -1,0 +1,122 @@
+    *,
+    *::before,
+    *::after {
+        -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    body {
+      background-color: #47474727;
+      font-family: 'Roboto Slab', serif;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    div {
+      margin: 20px 0;
+    }
+
+    nav {
+      background-color: whitesmoke;
+      padding: 20px;
+      box-shadow: 0 10px 20px #47474727, 0 -10px 20px #47474727;
+    }
+
+    nav a {
+      text-decoration-line: none;
+      margin: 50px;
+    }
+
+    a:hover {
+      color: rgba(0, 0, 0, 0.658)
+    }
+
+    /* Home */
+
+    .about{
+      display: inline;
+    }
+
+    #personal {
+      border-radius: 100%;
+    }
+
+    #img{
+      position: absolute;
+      left: 100px;
+    }
+
+    span {
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+    h1,h2,h3,h4,h5,h6,p,a,li {
+      color: black;
+    }
+
+    li {
+      font-style: italic;
+    }
+
+    /* Stories */
+
+    #video1, #video2 {
+      display:inline-block
+    }
+
+    /* Contact */
+
+    #contact a {
+      margin: 20px;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.521);
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px #47474727, 0 -10px 20px #47474727;
+    }
+
+    .label{
+      text-align: start;
+      margin: 10px 30px;
+    }
+
+    input, textarea {
+      width: 90%;
+      border-radius: 4px;
+    }
+
+    input{
+      height: 40px;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    #submit {
+      background-color: white;
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+      text-transform: uppercase;
+      font-family: 'Roboto Slab';
+      font-weight: 600;
+    }
+
+    #submit:hover{
+      color: white;
+      background-color: #272727;
+      transition: 0.2s background-color linear, 0.1s color linear;
+    }
